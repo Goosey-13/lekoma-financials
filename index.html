@@ -42,7 +42,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bernard's Financial Services</title>
+  <title>Lekoma Financial Services</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
@@ -54,7 +54,9 @@
   <!-- Navigation -->
   <nav class="bg-blue-200 shadow-md sticky top-0 z-10">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-gray-800">Bernard's Financial Services</h1>
+      <a href="#home">
+        <img src="lekoma-logo.png" alt="Lekoma Financial Solutions and Investment Development Logo" class="h-12 w-auto">
+      </a>
       <div class="space-x-4">
         <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
         <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
@@ -76,9 +78,9 @@
   <!-- About Section -->
   <section id="about" class="py-16">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">About Bernard</h2>
+      <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">About Lekoma</h2>
       <p class="text-gray-600 leading-relaxed text-center max-w-2xl mx-auto">
-        Bernard is a dedicated financial advisor and insurance broker with years of experience helping individuals and families secure their financial future. Our mission is to provide personalized, tailor-made solutions that align with your unique goals and needs.
+        Lekoma is a dedicated financial advisor and insurance broker with years of experience helping individuals and families secure their financial future. Our mission is to provide personalized, tailor-made solutions that align with your unique goals and needs.
       </p>
     </div>
   </section>
@@ -119,7 +121,7 @@
   <section id="contact" class="py-16">
     <div class="max-w-6xl mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-8 text-gray-800">Contact Us</h2>
-      <p class="text-gray-600 mb-6">Ready to plan your financial future? Reach out to Bernard today!</p>
+      <p class="text-gray-600 mb-6">Ready to plan your financial future? Reach out to Lekoma today!</p>
       <p class="text-gray-600 mb-4">Email: <a href="mailto:bernard@example.com" class="text-blue-600">bernard@example.com</a></p>
       <p class="text-gray-600 mb-4">Phone: <a href="tel:+1234567890" class="text-blue-600">+1 (234) 567-890</a></p>
       <p class="text-gray-600">Address: 123 Financial Street, Suite 100, Your City, Country</p>
@@ -129,7 +131,7 @@
   <!-- Footer -->
   <footer class="bg-blue-200 py-4">
     <div class="max-w-6xl mx-auto px-4 text-center text-gray-600">
-      <p>&copy; 2025 Bernard's Financial Services. All rights reserved.</p>
+      <p>© 2025 Lekoma Financial Services. All rights reserved.</p>
     </div>
   </footer>
 
@@ -142,7 +144,6 @@
       dropdownMenu.classList.toggle('hidden');
     });
 
-    // Close dropdown when clicking outside
     document.addEventListener('click', (event) => {
       if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
         dropdownMenu.classList.add('hidden');
