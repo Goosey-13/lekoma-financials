@@ -48,6 +48,9 @@
     body {
       font-family: 'Inter', sans-serif;
     }
+    .logo-tint {
+      filter: grayscale(100%) brightness(60%) sepia(20%) hue-rotate(0deg);
+    }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -55,7 +58,7 @@
   <nav class="bg-blue-200 shadow-md sticky top-0 z-10">
     <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
       <a href="#home">
-        <img src="lekoma-logo.png" alt="Lekoma Financial Solutions and Investment Development Logo" class="h-28 w-auto">
+        <img src="https://raw.githubusercontent.com/Goosey-13/lekoma-financials/main/lekoma-logo.png" alt="Lekoma Financial Solutions and Investment Development Logo" class="h-32 w-auto logo-tint">
       </a>
       <div class="space-x-4">
         <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
@@ -67,7 +70,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="home" class="bg-blue-100 py-20">
+  <section id="home" class="bg-blue-100 py-28">
     <div class="max-w-6xl mx-auto px-4 text-center">
       <h2 class="text-4xl font-bold mb-4 text-gray-800">Your Trusted Financial Advisor</h2>
       <p class="text-lg text-gray-600 mb-6">Providing personalized and tailor-made solutions to meet your financial needs.</p>
@@ -91,11 +94,11 @@
       <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Our Services</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-white p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-4 text-gray-800">Financial Planning</h3>
+          <h2 class="text-xl font-semibold mb-4 text-gray-800">Financial Planning</h2>
           <p class="text-gray-600">Comprehensive financial planning to help you achieve your long-term goals, from retirement to wealth building.</p>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-4 text-gray-800">Insurance Solutions</h3>
+          <h2 class="text-xl font-semibold mb-4 text-gray-800">Insurance Solutions</h2>
           <p class="text-gray-600">Access a range of insurance products from top providers to protect what matters most.</p>
         </div>
       </div>
