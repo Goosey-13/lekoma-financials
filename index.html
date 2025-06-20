@@ -43,7 +43,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Lekoma Financial Services provides expert financial planning, insurance solutions, and investment advice in South Africa. Trust us for your retirement and wealth goals.">
-  <meta name="keywords" content="financial planning, insurance, Lekoma Financial, advisor, retirement, wealth management, South Africa, Bernard Lekoma, Medical Aid, financial planner, financial advisory services, best wealth management firms, financial goals, retirement planning, investment advice, wealth management, financial literacy, financial security, estate planning, health insurance quotes, compare medical plans, affordable healthcare">
+  <meta name="keywords" content="financial planning, insurance, Lekoma Financial, advisor, retirement, wealth management, South Africa">
   <meta name="author" content="Lekoma Financial Services">
   <meta property="og:title" content="Lekoma Financial Services | Expert Financial Advisors in South Africa">
   <meta property="og:description" content="Lekoma Financial Services offers personalized financial planning, insurance, and investment solutions. Contact us today for tailored advice in South Africa!">
@@ -67,6 +67,15 @@
     .logo-tint {
       filter: grayscale(100%) brightness(60%) sepia(20%) hue-rotate(0deg);
     }
+    @media (max-width: 640px) {
+      .hero-content {
+        flex-direction: column;
+        align-items: center;
+      }
+      .hero-image {
+        margin-top: 1rem;
+      }
+    }
   </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
@@ -86,10 +95,24 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="home" class="bg-blue-100 py-28">
+  <section id="home" class="bg-blue-100 py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="hero-content flex items-center justify-between">
+        <div class="text-center flex-1 ml-auto mr-0">
+          <h2 class="text-4xl font-bold mb-2 text-gray-800">Your Trusted Financial Advisor</h2>
+          <p class="text-xl font-medium mb-6 text-gray-800">"Build a Dynasty. Leave a Legacy."</p>
+          <p class="text-lg text-gray-600 mb-6">Providing personalized and tailor-made solutions to meet your financial needs.</p>
+        </div>
+        <div class="hero-image">
+          <img src="https://raw.githubusercontent.com/Goosey-13/lekoma-financials/main/bernasrd.jpeg" alt="Bernard - Lekoma Financial Advisor" class="w-48 h-auto md:w-56">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="py-4">
     <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="text-4xl font-bold mb-4 text-gray-800">Your Trusted Financial Advisor</h2>
-      <p class="text-lg text-gray-600 mb-6">Providing personalized and tailor-made solutions to meet your financial needs.</p>
       <a href="#contact" class="bg-blue-300 text-gray-800 px-6 py-2 rounded-lg hover:bg-blue-400">Get in Touch</a>
     </div>
   </section>
@@ -97,9 +120,9 @@
   <!-- About Section -->
   <section id="about" class="py-16">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">About Lekoma</h2>
+      <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">About Bernard Lekoma</h2>
       <p class="text-gray-600 leading-relaxed text-center max-w-2xl mx-auto">
-        Bernard Lekoma is a dedicated financial advisor and insurance broker with years of experience helping individuals and families secure their financial future. Our mission is to provide personalized, tailor-made solutions that align with your unique goals and needs.
+        Bernard Lekoma is a dedicated financial advisor and insurance broker with years of experience helping individuals and families secure their financial future. His mission is to provide personalized, tailor-made solutions that align with your unique goals and needs.
       </p>
     </div>
   </section>
@@ -140,8 +163,8 @@
   <section id="contact" class="py-16">
     <div class="max-w-6xl mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-8 text-gray-800">Contact Us</h2>
-      <p class="text-gray-600 mb-6">Ready to plan your financial future? Reach out to Bernard Lekoma today!</p>
-      <p class="text-gray-600 mb-4">Email: <a href="mailto:bernard@lekoma.com" class="text-blue-600">bernard@lekoma.com</a></p>
+      <p class="text-gray-600 mb-6">Ready to plan your financial future? Reach out to Lekoma today!</p>
+      <p class="text-gray-600 mb-4">Email: <a href="mailto:bernard@example.com" class="text-blue-600">bernard@example.com</a></p>
       <p class="text-gray-600 mb-4">Phone: <a href="tel:+1234567890" class="text-blue-600">+1 (234) 567-890</a></p>
       <p class="text-gray-600">Address: 123 Financial Street, Suite 100, Your City, Country</p>
     </div>
